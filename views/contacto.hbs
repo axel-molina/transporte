@@ -1,0 +1,36 @@
+<main class="holder">
+		<div class="columna left">
+			<h2>Contacto Rápido</h2>
+			<form action="/contacto" method="POST" class="formulario">
+				<p>
+					<label for="">Nombre</label>
+					<input type="text" name="nombre">
+				</p>
+				<p>
+					<label for="">Email</label>
+					<input type="Email" name="email">
+				</p>
+				<p>
+					<label for="">Telefono</label>
+					<input type="text" name="telefono">
+				</p>
+				<p>
+					<label for="comentario">Comentario</label>
+					<textarea name="comentarios" id="comentario"></textarea>
+				</p>
+				<p class="acciones"><input type="submit" value="Enviar"></p>
+			</form>
+			<p>{{message}}</p>
+			
+		</div>
+		<div class="columna right">
+			<h2>Otras vias de contacto</h2>
+			<p>Tambien se pueden comunicar con nosotros en...</p>
+			<ul>
+				<li>Telefono: 4563-3467</li>
+				<li>Email: contacto@transportes.com</li>
+				<li>Facebook:<a href="https://www.facebook.com/molinaaxelivan?ref=bookmarks">Axel Ivan Molina</a></li>
+				<li>Twitter:<a href="https://twitter.com/axelivanmolina1">@axelivanmolina1</a></li>
+			</ul>
+		</div>
+	</main>
